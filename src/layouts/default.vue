@@ -9,6 +9,10 @@
         <q-toolbar-title>
           Alinex
         </q-toolbar-title>
+        <q-btn flat icon="home" label="Start" @click="$router.push('/')" />
+        <q-btn flat icon="mdi-chart-timeline" label="Biographia" @click="$router.push('/timeline')" />
+        <q-btn flat icon="mdi-projector-screen" label="Projects" @click="$router.push('/projects')" />
+        <q-btn flat icon="mail" label="Contact" @click="$router.push('/contact')" />
       </q-toolbar>
     </q-layout-header>
 
