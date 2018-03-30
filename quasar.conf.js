@@ -33,7 +33,8 @@ module.exports = function (ctx) {
           enforce: 'pre',
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
-          exclude: /(node_modules|quasar)/
+          exclude: /(node_modules|quasar)/,
+          options: { fix: true }
         })
       }
     },
@@ -45,20 +46,31 @@ module.exports = function (ctx) {
     // framework: 'all' --- includes everything; for dev only!
     framework: {
       components: [
+        'QBtn',
+        'QCard',
+        'QCardActions',
+        'QCardMain',
+        'QCardMedia',
+        'QCardSeparator',
+        'QCardTitle',
+        'QCarousel',
+        'QCarouselSlide',
+        'QCarouselControl',
+        'QIcon',
+        'QItem',
+        'QItemMain',
+        'QItemSide',
         'QLayout',
         'QLayoutHeader',
         'QLayoutDrawer',
-        'QPageContainer',
-        'QPage',
-        'QToolbar',
-        'QToolbarTitle',
-        'QBtn',
-        'QIcon',
         'QList',
         'QListHeader',
-        'QItem',
-        'QItemMain',
-        'QItemSide'
+        'QPageContainer',
+        'QPage',
+        'QTimeline',
+        'QTimelineEntry',
+        'QToolbar',
+        'QToolbarTitle'
       ],
       directives: [
         'Ripple'

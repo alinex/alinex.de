@@ -2,17 +2,17 @@
   <q-layout view="lHh Lpr lFf">
     <q-layout-header>
       <q-toolbar
-        color="primary"
+        color="tertiary"
         :glossy="$q.theme === 'mat'"
         :inverted="$q.theme === 'ios'"
       >
         <q-toolbar-title>
           Alinex
         </q-toolbar-title>
-        <q-btn flat icon="home" label="Start" @click="$router.push('/')" />
-        <q-btn flat icon="mdi-chart-timeline" label="Biographia" @click="$router.push('/timeline')" />
-        <q-btn flat icon="mdi-projector-screen" label="Projects" @click="$router.push('/projects')" />
-        <q-btn flat icon="mail" label="Contact" @click="$router.push('/contact')" />
+        <q-btn flat no-caps icon="home" label="Start" @click="$router.push('/')" />
+        <q-btn flat no-caps icon="mdi-chart-timeline" label="Biographia" @click="$router.push('/timeline')" />
+        <q-btn flat no-caps icon="mdi-projector-screen" label="Projects" @click="$router.push('/projects')" />
+        <q-btn flat no-caps icon="mail" label="Contact" @click="$router.push('/contact')" />
       </q-toolbar>
     </q-layout-header>
 
