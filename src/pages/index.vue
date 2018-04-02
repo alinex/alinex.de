@@ -25,19 +25,19 @@
 
     <div class="area row bg-secondary">
       <div>
-        <h4>Which Technologies?</h4>
-        <p>I did a lot with different scripting languages starting with Perl and PHP but now mostly working with JavaScript and it's transpilation languages.
-          Also everything is covered from the frontend to the backend and persistence layer.
+        <h4>Who am I?</h4>
+        <p>I am a developer and IT operator from south germany with a degree in econimic computer science.
+          My technical range goes from architecture, project management, development till operation and server administration.
+          All in the range of web applications with front- and backend.
         </p>
       </div>
     </div>
 
     <div class="area row">
       <div>
-        <h4>Who am I?</h4>
-        <p>I am a developer and IT operator from south germany with a degree in business informatics.
-          My technical range goes from architecture, project management, development till operation and server administration.
-          All in the range of web applications with front- and backend.
+        <h4>Current Works?</h4>
+        <p>You will find all my works at <a href="https://alinex.github.io" target="_bvlank">alinex.github.uo</a>.
+          Most of the free modules and applications are stored under GitHub and available through NPM.
         </p>
       </div>
     </div>

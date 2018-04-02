@@ -1,7 +1,9 @@
 <template>
   <q-page>
 
-    <div class="area row"></div>
+    <div class="area row">
+      <div>Contact me under the following address.</div>
+    </div>
 
     <div class="area row">
       <div>
