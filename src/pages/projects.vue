@@ -82,7 +82,7 @@
       <div>
         <q-card inline>
           <q-card-media overlay-position="top" class="relative-position">
-            <q-carousel autoplay="3200" infinite arrows class="absolute" style="height: 100%; width: 100%">
+            <q-carousel autoplay="3200" infinite arrows class="absolute" style="height: 100%; width: 100%; position=fixed;" >
               <q-carousel-slide img-src="statics/projects/inmedea-1.jpg" />
               <q-carousel-slide img-src="statics/projects/inmedea-2.jpg" />
               <q-carousel-slide img-src="statics/projects/inmedea-3.jpg" />
