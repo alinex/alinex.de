@@ -34,7 +34,7 @@
             <q-btn fab color="primary" icon="mdi-arrow-down-thick" class="absolute"
             @click="cardSwitch(10)" />
           </q-card-main>
-          <q-card-main :class="card_10 ? 'q-mt-md q-pb-none' : 'hidden'">
+          <q-card-main :class="card_10 ? 'q-mt-md q-pb-none animate-scale' : 'hidden'">
             <p>Websites for private, organisations and small companies. They are really different and individual.</p>
             <p>I always use the technology of the time it is created, often with content management systems to change contents on their own.
               Sometimes also together with logo design.<br/></p>
@@ -82,7 +82,7 @@
             <q-btn fab color="primary" icon="mdi-arrow-down-thick" class="absolute"
             @click="cardSwitch(9)" />
           </q-card-main>
-          <q-card-main :class="card_9 ? 'q-mt-md q-pb-none' : 'hidden'">
+          <q-card-main :class="card_9 ? 'q-mt-md q-pb-none animate-scale' : 'hidden'">
             <p>Universal device independent administration interface with frontend and REST server base.</p>
             <p>
               (2017-2018)</p>
@@ -116,7 +116,7 @@
             <q-btn fab color="primary" icon="mdi-arrow-down-thick" class="absolute"
             @click="cardSwitch(7)" />
           </q-card-main>
-          <q-card-main :class="card_7 ? 'q-mt-md q-pb-none' : 'hidden'">
+          <q-card-main :class="card_7 ? 'q-mt-md q-pb-none animate-scale' : 'hidden'">
             <p>The Media Server is a managing system for media files which can analyze, convert, watermark and download/stream them.</p>
             <p>I developed this as an add on to the shop, doing all the media file based tasks. Bacause of the high CPU Usage it contains a weighted queue with multiple workers for doing conversions and watermarking.I worked as architect, project manager, core developer, IT manager and made the system from the start.<br/>
               (2012-2016)</p>
@@ -147,7 +147,7 @@
             <q-btn fab color="primary" icon="mdi-arrow-down-thick" class="absolute"
             @click="cardSwitch(6)" />
           </q-card-main>
-          <q-card-main :class="card_6 ? 'q-mt-md q-pb-none' : 'hidden'">
+          <q-card-main :class="card_6 ? 'q-mt-md q-pb-none animate-scale' : 'hidden'">
             <p>The INMEDEA Simulator is a web based e-learning system for the medical education.
               It is case based and used for training and exams.</p>
             <p>I worked as architect, project manager, core developer, IT manager and made the system from the start.<br/>
@@ -184,7 +184,7 @@
             <q-btn fab color="primary" icon="mdi-arrow-down-thick" class="absolute"
             @click="cardSwitch(5)" />
           </q-card-main>
-          <q-card-main :class="card_5 ? 'q-mt-md q-pb-none' : 'hidden'">
+          <q-card-main :class="card_5 ? 'q-mt-md q-pb-none animate-scale' : 'hidden'">
             <p>Server rendered web application based on modular PHP system for easy development of flexible applications.</p>
             <p>I started this and made lots of modules all completely tested and completely API documented but I got lost in it making all modules as flexible as possible and didn't completely finish the whole suite.
               (20ß9-2013)</p>
