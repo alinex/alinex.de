@@ -2,7 +2,7 @@
   <q-page>
 
     <div class="area row">
-      <div>Get to know some of my projects.</div>
+      <div>Get to know some of my projects - klick the blue down button for more information.</div>
     </div>
 
     <div class="area row">
@@ -60,34 +60,45 @@
 
       <div>
         <q-card inline>
-          <q-card-main overlay-position="top" class="relative-position">
-            <!--
-            <q-carousel autoplay infinite arrows class="absolute" style="height: 100%; width: 100%">
-              <q-carousel-slide img-src="statics/projects/inmedea-1.jpg" />
-              <q-carousel-slide img-src="statics/projects/inmedea-2.jpg" />
-              <q-carousel-slide img-src="statics/projects/inmedea-3.jpg" />
+          <q-card-media overlay-position="top" class="relative-position">
+            <q-carousel autoplay="5100" infinite arrows class="absolute" style="height: 100%; width: 100%">
+              <q-carousel-slide img-src="statics/projects/admin-1.jpg" />
+              <q-carousel-slide img-src="statics/projects/admin-2.jpg" />
+              <q-carousel-slide img-src="statics/projects/admin-3.jpg" />
+              <q-carousel-slide img-src="statics/projects/admin-4.jpg" />
+              <q-carousel-slide img-src="statics/projects/admin-5.jpg" />
+              <q-carousel-slide img-src="statics/projects/admin-6.jpg" />
               <q-carousel-control slot="control-button" slot-scope="carousel" position="bottom-left" :offset="[5, 5]">
                 <q-btn round dense push color="primary"
                   :icon="carousel.inFullscreen ? 'fullscreen_exit' : 'fullscreen'"
                   @click="carousel.toggleFullscreen()" />
               </q-carousel-control>
             </q-carousel>
-            <img src="statics/projects/inmedea-1.jpg">
-            -->
+            <img src="statics/projects/admin-1.jpg">
             <q-card-title>
               Alinex Admin
             </q-card-title>
-          </q-card-main>
+          </q-card-media>
           <q-card-main class="relative-position down">
             <q-btn fab color="primary" icon="mdi-arrow-down-thick" class="absolute"
             @click="cardSwitch(9)" />
           </q-card-main>
           <q-card-main :class="card_9 ? 'q-mt-md q-pb-none animate-scale' : 'hidden'">
-            <p>Universal device independent administration interface with frontend and REST server base.</p>
-            <p>
+            <p>Universal device independent administration interface running on web, desktop and mobile.
+              Responsive frontend communicating over Websockets with a REST server base.</p>
+            <p>After a lot of experience and trying out different technologies and frameworks I build this as an all-in-one solution without a specific use case at first.
               (2017-2018)</p>
-            <p>JavaScript ES6, HTML, CSS, Vue, Electron; NodeJS, Express; MongoDB</p>
+            <p>JavaScript ES6, HTML, CSS, Vue, Electron; NodeJS, Express; MongoDB, PostgreSQL</p>
           </q-card-main>
+          <q-card-separator />
+          <q-card-actions :class="card_9 ? 'float-right' : 'hidden'">
+            <q-btn no-caps flat icon="open in browser" color="primary" label="Manual"
+              @click="openURL('https://alinex.gitbooks.io/administration-panel/content/')" />
+            <q-btn no-caps flat icon="open in browser" color="primary" label="Server Code"
+              @click="openURL('https://github.com/alinex/node-admin')" />
+            <q-btn no-caps flat icon="open in browser" color="primary" label="Client Code"
+              @click="openURL('https://github.com/alinex/node-admin-client')" />
+          </q-card-actions>
         </q-card>
       </div>
 
