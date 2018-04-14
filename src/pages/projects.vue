@@ -207,10 +207,31 @@
 <!--
 4 Code Manager
 3 Webhoch3 CMS
-2 Brokat Intranet Systems
-1 Organisation Manager
 -->
 
+      <div>
+        <q-card inline>
+          <q-card-media overlay-position="top" class="relative-position">
+            <img src="statics/projects/brokat-1.jpg">
+            <q-card-title slot="overlay">
+              Brokat Website Management
+            </q-card-title>
+          </q-card-media>
+          <q-card-main class="relative-position down">
+            <q-btn fab color="primary" icon="mdi-arrow-down-thick" class="absolute"
+            @click="cardSwitch(2)" />
+          </q-card-main>
+          <q-card-main :class="card_2 ? 'q-mt-md q-pb-none animate-scale' : 'hidden'">
+            <p>Content Management Systems for managing multi-lingual sites by generating and publishing static sites from a database and filesystem.</p>
+            <p>This started to automate our work which was hand editing static sites for multiple countries in selectable languages.
+              (1998-2001)</p>
+            <p>Perl, MySQL</p>
+          </q-card-main>
+        </q-card>
+      </div>
+
+<!-- 1 Organisation Manager
+-->
     </div>
 
   </q-page>
