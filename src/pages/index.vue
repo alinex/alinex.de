@@ -36,7 +36,7 @@
     <div class="area row">
       <div>
         <h4>Current Works?</h4>
-        <p>You will find all my works at <a href="https://alinex.github.io" target="_bvlank">alinex.github.uo</a>.
+        <p>You will find all my works at <a href="https://alinex.github.io" target="_bvlank">alinex.github.io</a>.
           Most of the free modules and applications are stored under GitHub and available through NPM.
         </p>
       </div>
