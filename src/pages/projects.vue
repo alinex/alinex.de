@@ -35,14 +35,14 @@
             @click="cardSwitch(10)" />
           </q-card-main>
           <q-card-main :class="card_10 ? 'q-mt-md q-pb-none animate-scale' : 'hidden'">
-            <p>Websites for private, organisations and small companies. They are really different and individual.</p>
+            <p>Websites for private, organizations and small companies. They are really different and individual.</p>
             <p>I always use the technology of the time it is created, often with content management systems to change contents on their own.
               Sometimes also together with logo design.<br/></p>
             <p>HTML, JavaScript, Bootstrap, Joomla, Google Tools</p>
           </q-card-main>
           <q-card-separator />
           <q-card-actions :class="card_10 ? 'float-right' : 'hidden'">
-            <q-btn no-caps flat icon="open in browser" color="primary" title="Art Organisation"
+            <q-btn no-caps flat icon="open in browser" color="primary" title="Art Organization"
               @click="openURL('http://kulturmuehle-rechberghausen.de')" />
             <q-btn no-caps flat icon="open in browser" color="primary" title="VfB Fanclub"
               @click="openURL('http://www.schwaben-piranhas.de')" />
@@ -52,7 +52,7 @@
               @click="openURL('http://steinmetz-sartorius.de')" />
             <q-btn no-caps flat icon="open in browser" color="primary" title="Holiday Appartments"
               @click="openURL('http://ferienwohnungspanja.de')" />
-            <q-btn no-caps flat icon="open in browser" color="primary" title="Music Organisation"
+            <q-btn no-caps flat icon="open in browser" color="primary" title="Music Organization"
               @click="openURL('http://www.lichtensteinerblasmusik.de')" />
           </q-card-actions>
         </q-card>
@@ -230,7 +230,7 @@
         </q-card>
       </div>
 
-<!-- 1 Organisation Manager
+<!-- 1 Organization Manager
 -->
     </div>
 
