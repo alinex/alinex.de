@@ -92,11 +92,13 @@
           </q-card-main>
           <q-card-separator />
           <q-card-actions :class="card_9 ? 'float-right' : 'hidden'">
-            <q-btn no-caps flat icon="open in browser" color="primary" label="Manual"
+            <q-btn no-caps flat icon="slideshow" color="primary" label="Demo"
+              @click="openURL('https://demo.alinex.de')" />
+            <q-btn no-caps flat icon="mdi-book-open-variant" color="primary"
               @click="openURL('https://alinex.gitbooks.io/administration-panel/content/')" />
-            <q-btn no-caps flat icon="open in browser" color="primary" label="Server Code"
+            <q-btn no-caps flat icon="mdi-github-box" color="primary"
               @click="openURL('https://github.com/alinex/node-admin')" />
-            <q-btn no-caps flat icon="open in browser" color="primary" label="Client Code"
+            <q-btn no-caps flat icon="mdi-github-box" color="primary"
               @click="openURL('https://github.com/alinex/node-admin-client')" />
           </q-card-actions>
         </q-card>

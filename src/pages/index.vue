@@ -6,7 +6,7 @@
     <div class="area row bg-secondary">
       <div>
         <h4>What is Alinex?</h4>
-        <p>It is a artifical name created from the first part of my name and IN from Internet.
+        <p>It is an artifical name created from the first part of my name and IN from Internet.
           I made it to use for all my internet works a long time ago.
         </p>
       </div>
