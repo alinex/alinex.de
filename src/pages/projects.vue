@@ -93,7 +93,7 @@
           <q-card-separator />
           <q-card-actions :class="card_9 ? 'float-right' : 'hidden'">
             <q-btn no-caps flat icon="slideshow" color="primary" label="Demo"
-              @click="openURL('https://demo.alinex.de')" />
+              @click="openURL('http://demo.alinex.de')" />
             <q-btn no-caps flat icon="mdi-book-open-variant" color="primary"
               @click="openURL('https://alinex.gitbooks.io/administration-panel/content/')" />
             <q-btn no-caps flat icon="mdi-github-box" color="primary"
