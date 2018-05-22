@@ -12,7 +12,7 @@
         <q-btn flat no-caps icon="home" label="Start" @click="$router.push('/')" />
         <q-btn flat no-caps icon="mdi-chart-timeline" label="Biographia" @click="$router.push('/timeline')" />
         <q-btn flat no-caps icon="mdi-projector-screen" label="Projects" @click="$router.push('/projects')" />
-        <q-btn flat no-caps icon="mail" label="Contact" @click="$router.push('/contact')" />
+        <q-btn flat no-caps icon="security" label="Policy" @click="$router.push('/policy')" />
       </q-toolbar>
     </q-layout-header>
 

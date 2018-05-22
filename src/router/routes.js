@@ -7,7 +7,7 @@ export default [
       { path: '', component: () => import('pages/index') },
       { path: 'timeline', component: () => import('pages/timeline') },
       { path: 'projects', component: () => import('pages/projects') },
-      { path: 'contact', component: () => import('pages/contact') }
+      { path: 'policy', component: () => import('pages/policy') }
     ]
   },
 
