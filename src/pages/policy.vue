@@ -83,17 +83,22 @@
     </div>
 
     <div class="area row bg-secondary">
+      <h3>Integration of services and contents of third parties</h3>
+      <p>Based on our legitimate interests (ie interest in the analysis, optimization and economic operation of our online offer within the meaning of Art. 6 (1) lit. DSGVO), we make use of content or services offered by third-party providers in order to provide their content and services Services, such as Include videos or fonts (collectively referred to as "content").</p>
+      <p>This always presupposes that the third-party providers of this content perceive the IP address of the users, since they could not send the content to their browser without the IP address. The IP address is therefore required for the presentation of this content. We endeavor to use only content whose respective providers use the IP address solely for the delivery of the content. Third parties may also use so-called pixel tags (invisible graphics, also referred to as "web beacons") for statistical or marketing purposes. The "pixel tags" can be used to evaluate information such as visitor traffic on the pages of this website. The pseudonymous information may also be stored in cookies on the user's device and may include, but is not limited to, technical information about the browser and operating system, referring web pages, visit time, and other information regarding the use of our online offer.</p>
+    </div>
+
+    <div class="area row bg-secondary">
       <h3>Hosting / Data storage</h3>
       <p>The hosting services we use serve to provide the following services: Infrastructure and platform services, computing capacity, storage space and database services, security services and technical maintenance services that we use for the purpose of operating this online offering.</p>
       <p>We or our hosting provider process inventory data, contact data, content data, contract data, usage data, meta- and communication data of customers, interested parties and visitors of this online offer on the basis of our legitimate interests in an efficient and secure provision of this online offer according to Art. 6 Para. 1 lit. f GDPR in conjunction with. Art. 28 GDPR (conclusion of order processing contract).</p>
-      <p>Data processing and storage takes place exclusively in Germany on German servers. Your data will therefore not be transmitted by us to a non-European country. Data is transferred to you exclusively via encrypted connections to protect your data and your privacy.</p>
     </div>
 
     <div class="area row">
       <h3>Collection of access data and log files</h3>
       <p>We, or our hosting provider, collect the following data on the basis of our legitimate interests within the meaning of Art. 6 para. 1 lit. f. GDPR data on each access to the server on which this service is located (so-called server log files). Access data includes the name of the accessed website, file, date and time of access, transferred data volume, notification of successful access, browser type and version, the user's operating system, referrer URL (the previously visited page), IP address and the requesting provider.</p>
       <p>Log file information is stored for a few days for troubleshooting and for security reasons (e.g. to detect misuse or fraud) and then deleted. Data whose further storage is required for evidentiary purposes are excluded from deletion until the respective incident has been finally clarified.</p>
-  </div>
+    </div>
 
   </q-page>
 </template>
